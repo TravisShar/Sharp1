@@ -16,7 +16,7 @@
 #include <sstream>
 #include <cstring>
 #include <cctype>
-#include "SYMBOL.h"
+#include "SymbolTable.h"
 
 using namespace std;
 
