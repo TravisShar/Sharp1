@@ -30,10 +30,10 @@ int main()
     SymbolTable table;
     fstream inTable;
     string searchfile;
-    inTable.open("SYMBOL.DAT", std::ios::in);
+    inTable.open("SYMBOLs.DAT", std::ios::in);
     if(!inTable)
     {
-        cout << "Error opening SYMBOL.Dat\n";
+        cout << "Error opening SYMBOLS.Dat\n";
         exit(103);
     }
       std::string line , line2;
