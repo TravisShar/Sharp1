@@ -15,7 +15,7 @@
 #include <fstream>
 #include <sstream>
 #include <cstring>
-#include "SYMBOL.h"
+#include "SymbolTable.h"
 
 using namespace std;
 
