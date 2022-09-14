@@ -1,11 +1,11 @@
-output: main.o SYMBOL.o
-	g++ -o runtable main.o SYMBOL.o
+output: main.o SymbolTable.o
+	g++ -o runtable main.o SymbolTable.o
 
 main.o: main.cpp
 	g++ -c main.cpp
 
-SYMBOL.o: SYMBOL.h SYMBOL.cpp
-	g++ -c SYMBOL.cpp
+SymbolTable.o: SymbolTable.h SymbolTable.cpp
+	g++ -c SymbolTable.cpp
 
 clean:
-	rm runtable main.o SYMBOL.o
+	rm runtable main.o SymbolTable.o
