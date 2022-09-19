@@ -161,5 +161,10 @@ bool CheckVal(string value)
         fault = true;
         cout << "Invalid value :" << value << endl;
     }
+    else if(!isdigit(value)) // invalid characters (+ , *)
+    (
+        fault = true;   
+        cout << "Invalid value :" << value << endl;
+    )
         return fault;
 }
